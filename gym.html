@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health & Fitness</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="<style>
+    @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+  </style>"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: "Delicious Handrawn", cursive;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("Images/bg3.jpg");
+    }
+    .left {
+      display: inline-block;
+      /* border: 2px solid brown; */
+      position: absolute;
+      left: 34px;
+      top: 20px;
+    }
+    .mid {
+      display: block;
+      width: 33%;
+      margin: 20px auto;
+      /* border: 2px solid dodgerblue; */
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid salmon; */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 15px;
+    }
+    .navbar a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 4px 3px;
+    }
+    .navbar li a:hover,
+    .navbar li a:active {
+      color: rgb(107, 105, 105);
+      text-decoration: none;
+    }
+    .left img {
+      width: 95px;
+      height: 65px;
+    }
+    .left div {
+      line-height: 3px;
+      font-size: 19px;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+    }
+    .btn {
+      font-family: "Delicious Handrawn", cursive;
+      margin: 0px 9px;
+      padding: 4px 4px;
+      background-color: rgb(224, 224, 224);;
+      border: 2px solid gray;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: gray;
+    }
+    .container {
+      border: 2px blue;
+      margin: 2px 59px 26px 33px;
+      padding: 99px 27px;
+      width: 62%;
+      border-radius: 2px;
+      
+    }
+    .formgroup input{
+      background-color: rgb(224, 224, 224);
+      text-decoration-color: white;
+      font-family: "Delicious Handrawn", cursive;
+      text-align: center;
+      display: block;
+      width: 756px;
+      padding: 3px;
+      margin: 22px -4px;
+      font-size: 22px;
+      
+    }
+    .container button{
+      display: block;
+      width: 23%;
+      margin: 30px auto;
+  
+    }
+    div.container{
+      text-decoration-color: white;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="Images/logo4.jpg" alt="" />
+        <div>My Fitness</div>
+      </div>
+      <!-- middle box for navigation bar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- right box for buttons -->
+      <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym of 'Ranchi'!</h1>
+      <form action="noAction.php">
+        <div class="formgroup">
+          <input type="text" name="" placeholder="Enter your name" >
+        </div>
+        <div class="formgroup">
+          <input type="text" name="" placeholder="Enter your age" >
+        </div>
+        <div class="formgroup">
+          <input type="text" name="" placeholder="Enter your gender" >
+        </div>
+        <div class="formgroup">
+          <input type="text" name="" placeholder="Enter your address" >
+        </div>
+        <div class="formgroup">
+          <input type="text" name="" placeholder="Enter your phone number" >
+        </div>
+        <button class="btn">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
